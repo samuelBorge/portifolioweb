@@ -1,0 +1,112 @@
+@page "/historia"
+
+<PageTitle>Minha História - Samuel</PageTitle>
+
+<section class="pagina-historia">
+    <div class="container-historia">
+        <header class="cabecalho-historia">
+            <h1 class="titulo-historia">Minha História</h1>
+            <p class="subtitulo-historia">Conheça um pouco mais sobre a jornada do Samuel no IFRO</p>
+        </header>
+
+        <article class="conteudo-historia">
+            <p>
+                Samuel era um estudante do IFRO conhecido por ser engraçado e sempre chegar atrasado nas aulas. Ele dizia para os professores que o ônibus quebrava quase todos os dias, mas na verdade passava boa parte da manhã dormindo depois de ficar jogando no celular até tarde da noite.
+            </p>
+            <p>
+                Mesmo assim, Samuel era muito inteligente. Quando tinha trabalho em grupo, sempre deixava para última hora, mas conseguia terminar tudo rapidamente. Seus amigos brincavam dizendo que ele tinha “superpoderes de improviso”.
+            </p>
+            <p>
+                No intervalo, Samuel gostava de ir para a cantina comprar salgado e refrigerante enquanto conversava sobre futebol, jogos e provas difíceis. Às vezes prometia que iria estudar cedo para as avaliações, porém acabava assistindo vídeos na internet em vez de abrir o caderno.
+            </p>
+            <p>
+                Um dia, o professor de programação passou um desafio muito complicado. A turma inteira ficou preocupada, mas Samuel resolveu tentar. Depois de errar várias vezes e quase desistir, conseguiu fazer o programa funcionar. Quando viu a tela funcionando corretamente, comemorou tanto que chamou atenção da sala inteira.
+            </p>
+            <p>
+                Apesar de ser meio preguiçoso e inventar desculpas de vez em quando, Samuel gostava do IFRO e sonhava em trabalhar na área de tecnologia. No fundo, sabia que precisava se esforçar mais para alcançar seus objetivos.
+            </p>
+        </article>
+
+        <footer class="rodape-historia">
+            <a href="/" class="btn-voltar">Voltar para Home</a>
+        </footer>
+    </div>
+</section>
+
+<style>
+    .pagina-historia {
+        background: #0f071a; /* Darkest Purple Background */
+        color: #f8fafc;
+        min-height: calc(100vh - 60px);
+        padding: 3rem 1.5rem;
+    }
+
+    .container-historia {
+        max-width: 800px;
+        margin: 0 auto;
+        background: #f0f9ff; /* Light Blue Card */
+        padding: 3rem;
+        border-radius: 20px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        border: 1px solid #bae6fd;
+    }
+
+    .cabecalho-historia {
+        text-align: center;
+        margin-bottom: 2.5rem;
+        border-bottom: 2px solid #bae6fd;
+        padding-bottom: 2rem;
+    }
+
+    .titulo-historia {
+        font-family: "Georgia", "Times New Roman", serif;
+        font-size: 2.5rem;
+        color: #7A00FF;
+        margin: 0 0 0.5rem;
+    }
+
+    .subtitulo-historia {
+        color: #64748b;
+        font-size: 1.1rem;
+    }
+
+    .conteudo-historia p {
+        font-size: 1.15rem;
+        line-height: 1.8;
+        margin-bottom: 1.5rem;
+        text-align: justify;
+        color: #334155; /* Darker text for light background */
+    }
+
+    .rodape-historia {
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .btn-voltar {
+        display: inline-block;
+        background: #7A00FF;
+        color: #ffffff;
+        padding: 0.8rem 2rem;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: all 0.2s;
+        box-shadow: 0 4px 14px rgba(122, 0, 255, 0.4);
+    }
+
+    .btn-voltar:hover {
+        background: #6a00e0;
+        transform: translateY(-2px);
+    }
+
+    @@media (max-width: 600px) {
+        .container-historia {
+            padding: 1.5rem;
+        }
+        
+        .titulo-historia {
+            font-size: 2rem;
+        }
+    }
+</style>

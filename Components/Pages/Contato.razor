@@ -1,0 +1,178 @@
+@page "/contato"
+
+<PageTitle>Contato - Samuel</PageTitle>
+
+<section class="pagina-contato">
+    <div class="container-contato">
+        <header class="cabecalho-contato">
+            <div class="frase-impacto">
+                <span class="emoji-brilho">✨</span>
+                <blockquote>“Transformando esforço em código e ideias em soluções reais.”</blockquote>
+            </div>
+            <h1 class="titulo-sessao">📬 Vamos conversar?</h1>
+            <p class="subtitulo">Escolha a melhor forma de entrar em contato comigo.</p>
+        </header>
+
+        <div class="grade-contatos">
+            <!-- E-mail -->
+            <a href="mailto:samuel.dev.ifro@gmail.com" class="cartao-contato">
+                <div class="icone-contato">📧</div>
+                <h3>E-mail</h3>
+                <p>samuel.dev.ifro@gmail.com</p>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/5561984321190" target="_blank" class="cartao-contato">
+                <div class="icone-contato">📱</div>
+                <h3>WhatsApp</h3>
+                <p>+55 (61) 9 8432-1190</p>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/samuel-dev-ifro" target="_blank" class="cartao-contato">
+                <div class="icone-contato">💻</div>
+                <h3>GitHub</h3>
+                <p>github.com/samuel-dev-ifro</p>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://instagram.com/samuel.dev.ifro" target="_blank" class="cartao-contato">
+                <div class="icone-contato">📸</div>
+                <h3>Instagram</h3>
+                <p>@@samuel.dev.ifro</p>
+            </a>
+
+            <!-- Twitter -->
+            <a href="https://twitter.com/samuel_codes" target="_blank" class="cartao-contato">
+                <div class="icone-contato">🐦</div>
+                <h3>Twitter (X)</h3>
+                <p>@@samuel_codes</p>
+            </a>    
+
+            <!-- Facebook -->
+            <a href="https://facebook.com/samuel.dev.ifro" target="_blank" class="cartao-contato">
+                <div class="icone-contato">🔵</div>
+                <h3>Facebook</h3>
+                <p>@@samuel.dev.ifro</p>
+            </a>
+        </div>
+
+        <footer class="rodape-contato">
+            <a href="/" class="btn-voltar">Voltar para Home</a>
+        </footer>
+    </div>
+</section>
+
+<style>
+    .pagina-contato {
+        background: #0f071a;
+        color: #f8fafc;
+        min-height: calc(100vh - 60px);
+        padding: 3rem 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-contato {
+        max-width: 900px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .frase-impacto {
+        margin-bottom: 2rem;
+    }
+
+    .emoji-brilho {
+        font-size: 2rem;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    blockquote {
+        font-size: 1.5rem;
+        font-style: italic;
+        color: #d8b4fe;
+        font-family: "Georgia", serif;
+        margin: 0;
+    }
+
+    .titulo-sessao {
+        font-size: 2.5rem;
+        color: #ffffff;
+        margin-bottom: 0.5rem;
+    }
+
+    .subtitulo {
+        color: #94a3b8;
+        margin-bottom: 3rem;
+    }
+
+    .grade-contatos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .cartao-contato {
+        background: #f0f9ff; /* Azul Claro */
+        border: 1px solid #bae6fd;
+        padding: 2rem;
+        border-radius: 20px;
+        text-decoration: none;
+        color: #334155;
+        transition: all 0.3s ease;
+        display: block;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    .cartao-contato:hover {
+        transform: translateY(-10px);
+        background: #ffffff;
+        border-color: #7A00FF;
+        box-shadow: 0 15px 35px rgba(122, 0, 255, 0.3);
+    }
+
+    .icone-contato {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .cartao-contato h3 {
+        font-size: 1.2rem;
+        color: #0c4a6e;
+        margin-bottom: 0.5rem;
+    }
+
+    .cartao-contato p {
+        font-weight: 600;
+        color: #7A00FF;
+        word-break: break-all;
+    }
+
+    .rodape-contato {
+        margin-top: 4rem;
+    }
+
+    .btn-voltar {
+        display: inline-block;
+        background: #7A00FF;
+        color: #ffffff;
+        padding: 0.8rem 2.5rem;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: all 0.2s;
+    }
+
+    .btn-voltar:hover {
+        background: #6a00e0;
+        transform: scale(1.05);
+    }
+
+    @@media (max-width: 600px) {
+        .titulo-sessao { font-size: 2rem; }
+        .grade-contatos { grid-template-columns: 1fr; }
+    }
+</style>

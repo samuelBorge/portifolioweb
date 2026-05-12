@@ -1,0 +1,232 @@
+@page "/projetos"
+
+<PageTitle>Meus Projetos - Samuel</PageTitle>
+
+<section class="pagina-projetos">
+    <div class="container-principal">
+        <header class="cabecalho-projetos">
+            <h1 class="titulo-sessao">Meus Projetos & Competências</h1>
+            <p class="resumo-bio">
+                Estudante do IFRO com interesse em desenvolvimento de sistemas, com experiência em projetos acadêmicos simulados envolvendo organização de dados, sistemas escolares e lógica de programação. Destaca-se pela criatividade na resolução de problemas e capacidade de adaptação em situações de pressão.
+            </p>
+        </header>
+
+        <div class="grade-projetos">
+            <!-- Projeto 1 -->
+            <article class="cartao-projeto">
+                <div class="badge-projeto"> Projeto Acadêmico</div>
+                <h2 class="titulo-projeto">Sistema de Controle de Tarefas Acadêmicas</h2>
+                <p class="desc-projeto">Desenvolvimento de uma aplicação para organização de tarefas, provas e horários escolares.</p>
+                
+                <div class="secao-interna">
+                    <h3>Competências:</h3>
+                    <ul>
+                        <li>Lógica de programação</li>
+                        <li>C# / ASP.NET</li>
+                        <li>Organização de banco de dados</li>
+                    </ul>
+                </div>
+
+                <div class="secao-interna">
+                    <h3>Resultados:</h3>
+                    <ul>
+                        <li>Redução de atrasos em entregas simuladas</li>
+                        <li>Interface simples e funcional para uso estudantil</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Projeto 2 -->
+            <article class="cartao-projeto">
+                <div class="badge-projeto"> Sistema Escolar</div>
+                <h2 class="titulo-projeto">Sistema de Notas e Desempenho Escolar</h2>
+                <p class="desc-projeto">Sistema fictício para calcular médias, faltas e desempenho dos alunos.</p>
+                
+                <div class="secao-interna">
+                    <h3>Competências:</h3>
+                    <ul>
+                        <li>Lógica matemática aplicada</li>
+                        <li>Estruturas condicionais</li>
+                        <li>Manipulação de dados</li>
+                    </ul>
+                </div>
+
+                <div class="secao-interna">
+                    <h3>Resultados:</h3>
+                    <ul>
+                        <li>Cálculo automático de médias</li>
+                        <li>Visualização simples de desempenho acadêmico</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+
+        <section class="secao-competencias">
+            <h2 class="titulo-competencias">Competências Gerais</h2>
+            <div class="tags-competencias">
+                <span class="tag">Lógica de programação em C#</span>
+                <span class="tag">Desenvolvimento de sistemas básicos</span>
+                <span class="tag">Trabalho em equipe</span>
+                <span class="tag">Resolução de problemas sob pressão</span>
+                <span class="tag">Aprendizado autodidata</span>
+            </div>
+        </section>
+
+        <footer class="rodape-projetos">
+            <a href="/" class="btn-voltar">Voltar para Home</a>
+        </footer>
+    </div>
+</section>
+
+<style>
+    .pagina-projetos {
+        background: #0f071a;
+        color: #f8fafc;
+        min-height: calc(100vh - 60px);
+        padding: 3rem 1.5rem;
+    }
+
+    .container-principal {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .cabecalho-projetos {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .titulo-sessao {
+        font-family: "Georgia", "Times New Roman", serif;
+        font-size: 2.8rem;
+        color: #7A00FF;
+        margin-bottom: 1rem;
+    }
+
+    .resumo-bio {
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 1.1rem;
+        line-height: 1.7;
+        color: #94a3b8;
+    }
+
+    .grade-projetos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .cartao-projeto {
+        background: #f0f9ff; /* Azul Claro */
+        color: #334155;
+        padding: 2rem;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        border: 1px solid #bae6fd;
+        transition: transform 0.3s ease;
+    }
+
+    .cartao-projeto:hover {
+        transform: translateY(-5px);
+    }
+
+    .badge-projeto {
+        display: inline-block;
+        background: #7A00FF;
+        color: white;
+        padding: 0.4rem 1rem;
+        border-radius: 50px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .titulo-projeto {
+        font-size: 1.5rem;
+        color: #0c4a6e;
+        margin-bottom: 1rem;
+    }
+
+    .desc-projeto {
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+        color: #0369a1;
+    }
+
+    .secao-interna h3 {
+        font-size: 1rem;
+        color: #0f172a;
+        margin-bottom: 0.5rem;
+        border-bottom: 1px solid #bae6fd;
+        padding-bottom: 0.3rem;
+    }
+
+    .secao-interna ul {
+        padding-left: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .secao-interna li {
+        margin-bottom: 0.3rem;
+        font-size: 0.95rem;
+    }
+
+    .secao-competencias {
+        background: #1a0b2e;
+        padding: 3rem;
+        border-radius: 20px;
+        text-align: center;
+        border: 1px solid #3b0764;
+    }
+
+    .titulo-competencias {
+        color: #ffffff;
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .tags-competencias {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .tag {
+        background: #7A00FF;
+        color: white;
+        padding: 0.6rem 1.2rem;
+        border-radius: 10px;
+        font-weight: 600;
+        box-shadow: 0 4px 10px rgba(122, 0, 255, 0.3);
+    }
+
+    .rodape-projetos {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .btn-voltar {
+        display: inline-block;
+        background: #7A00FF;
+        color: #ffffff;
+        padding: 0.8rem 2rem;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: all 0.2s;
+    }
+
+    .btn-voltar:hover {
+        background: #6a00e0;
+        transform: scale(1.05);
+    }
+
+    @@media (max-width: 600px) {
+        .titulo-sessao { font-size: 2rem; }
+        .grade-projetos { grid-template-columns: 1fr; }
+        .cartao-projeto { padding: 1.5rem; }
+    }
+</style>
